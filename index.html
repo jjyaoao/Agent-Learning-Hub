@@ -526,7 +526,7 @@ const resourcesData = {
     title:'Skills、协议与工具',
     rows:[
       ['Skills','<a href="https://code.claude.com/docs/en/skills" target="_blank">Claude Code Skills</a>, <a href="https://github.com/openclaw/openclaw/blob/main/docs/tools/skills.md" target="_blank">OpenClaw Skills</a>','把一类任务的流程知识、脚本、模板和验收标准打包成可复用能力。'],
-      ['MCP','<a href="https://modelcontextprotocol.io/" target="_blank">Model Context Protocol</a>','让 agent 标准化连接外部工具、数据源和服务。'],
+      ['MCP','<a href="https://modelcontextprotocol.io/" target="_blank">Model Context Protocol</a>, <a href="https://github.com/modelcontextprotocol/servers" target="_blank">官方 MCP Servers 合集</a>','让 agent 标准化连接外部工具、数据源和服务；官方 servers 合集涵盖文件系统、数据库、搜索、浏览器等常见场景，是学 MCP 接入最直接的参考。'],
       ['A2A','<a href="https://a2a-protocol.org/latest/specification/" target="_blank">Agent2Agent Protocol</a>','让不同 agent 之间发现、通信和协作。'],
       ['ACP','<a href="https://agentclientprotocol.com/" target="_blank">Agent Client Protocol</a>','让编辑器、终端、IDE、宿主应用和 agent 之间形成统一接口。'],
       ['Skill Quality','<a href="https://arxiv.org/abs/2603.15401" target="_blank">SWE-Skills-Bench</a>, <a href="https://arxiv.org/abs/2602.08004" target="_blank">Agent Skills analysis</a>','评估 skills 是否真的提升成功率，而不是制造新的 prompt 噪声。']
@@ -570,6 +570,9 @@ const resourcesData = {
       ['<a href="https://arxiv.org/abs/2308.03688" target="_blank">AgentBench</a>','Agent 能力评测。'],
       ['<a href="https://arxiv.org/abs/2307.13854" target="_blank">WebArena</a>','真实网页环境下的 agent benchmark。'],
       ['<a href="https://arxiv.org/abs/2310.06770" target="_blank">SWE-bench</a>','真实 GitHub issue 修复评测。'],
+      ['<a href="https://arxiv.org/abs/2311.12983" target="_blank">GAIA</a>','通用 AI 助手基准，测推理、多模态、工具使用；人类 92% vs GPT-4 15%，差距揭示 agent 能力上限。'],
+      ['<a href="https://arxiv.org/abs/2404.07972" target="_blank">OSWorld</a>','真实操作系统环境下的多模态 agent benchmark，覆盖 Ubuntu / Windows / macOS；适合 Stage 6 计算机操作 agent 学习。'],
+      ['<a href="https://arxiv.org/abs/2406.12045" target="_blank">τ-bench</a>','测量 tool-agent-user 三方动态交互；GPT-4o 在真实场景成功率不足 50%，pass^8 不足 25%，是评估 agent 可靠性的重要参照。'],
       ['<a href="https://arxiv.org/abs/2405.15793" target="_blank">SWE-agent</a>','软件工程 agent 的 agent-computer interface。'],
       ['<a href="https://arxiv.org/abs/2604.14228" target="_blank">Dive into Claude Code</a>','从系统设计角度分析 Claude Code 这类 coding agent 的 harness、权限、压缩和扩展机制。'],
       ['<a href="https://arxiv.org/abs/2605.13357" target="_blank">AI Harness Engineering</a>','把 harness 作为 agent 能力来源来研究。'],
@@ -592,6 +595,8 @@ const resourcesData = {
       ['<a href="https://github.com/huggingface/smolagents" target="_blank">huggingface/smolagents</a>','轻量 CodeAgent 风格框架，适合研究"让模型写代码执行动作"的范式。'],
       ['<a href="https://github.com/openai/codex" target="_blank">openai/codex</a>','OpenAI 开源 coding agent CLI，适合研究 sandbox、approval、CLI 产品形态。'],
       ['<a href="https://github.com/opencode-ai/opencode" target="_blank">opencode-ai/opencode</a>','终端优先的开源 coding agent，适合对照 Claude Code / Codex。'],
+      ['<a href="https://github.com/Aider-AI/aider" target="_blank">Aider-AI/aider</a>','终端 AI pair programming 工具，支持多模型，与 git 深度集成；是最早期也最活跃的 coding agent 之一，对照 Claude Code 视角学习价值高。'],
+      ['<a href="https://github.com/block/goose" target="_blank">block/goose</a>','Block 出品的开源可扩展 AI agent，支持安装、执行、编辑、测试，不限于代码建议；架构和 skills 设计值得研究。'],
       ['<a href="https://github.com/langchain-ai/langgraph" target="_blank">langchain-ai/langgraph</a>','状态图和可控 agent 编排。'],
       ['<a href="https://github.com/openai/openai-agents-python" target="_blank">openai/openai-agents-python</a>','OpenAI Agents SDK Python。'],
       ['<a href="https://github.com/QwenLM/Qwen-Agent" target="_blank">QwenLM/Qwen-Agent</a>','Qwen 生态 agent 框架。'],
